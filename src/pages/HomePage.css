@@ -1,0 +1,43 @@
+.background-image {
+	background-size: cover;
+	background-position: 50%;
+	min-height: 100vh;
+	padding-top: 50%;
+	z-index: 5;
+}
+
+.btn-shop {
+	font-size: 1.3rem;
+	text-decoration: none;
+	color: black;
+	background-color: white;
+	padding: 12px 40px;
+	letter-spacing: 0.3rem;
+	font-weight: 400;
+	position: relative;
+}
+
+.btn-shop:hover:before {
+	transform: translate3d(5px, 5px, 0);
+}
+
+.btn-shop:hover {
+	color: black;
+	cursor: pointer;
+}
+
+.btn-shop:before {
+	border: 1px solid #fff;
+	box-sizing: border-box;
+	content: ' ';
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: transform 0.2s ease;
+	width: 100%;
+}
+
+.light {
+	color: rgb(17, 17, 17) !important;
+}

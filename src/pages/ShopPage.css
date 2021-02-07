@@ -1,0 +1,73 @@
+.container {
+	padding: 150px 0 0 0;
+	display: flex;
+}
+
+.sidebar {
+	flex: 1;
+}
+
+.sidebar .header {
+	font-size: 1.5rem;
+	font-weight: 300;
+	text-align: left;
+}
+
+.sidebar .header p {
+	margin: 0;
+}
+
+.sidebar .header span {
+	font-size: 2rem;
+	font-weight: 600;
+	position: relative;
+	left: 1.5rem;
+}
+
+.main {
+	flex: 3;
+}
+
+.categories {
+	padding-top: 150px;
+	list-style: none;
+	text-align: left;
+	padding-left: 1.5rem;
+}
+
+.categories .display-2 {
+	color: black;
+	text-decoration: none;
+	font-size: 1.5rem;
+	font-weight: 600;
+	cursor: pointer;
+	margin-top: 10px;
+}
+
+.empty-link {
+	text-decoration: none;
+}
+
+.product-list {
+	align-items: flex-end;
+	justify-content: flex-start;
+}
+
+.product-tile {
+	margin: 1rem;
+	flex: 1 1 250px;
+	text-align: left;
+}
+
+.product-tile {
+	text-decoration: none;
+	color: black;
+}
+
+.product-image img {
+	max-width: 100%;
+}
+
+.product-name {
+	margin: 1rem 0 0.5rem 0;
+}
